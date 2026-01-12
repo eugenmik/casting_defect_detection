@@ -29,7 +29,7 @@ If you want to run this project locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/casting-defect-detection.git](https://github.com/YOUR_USERNAME/casting-defect-detection.git)
+git clone [https://github.com/YOUR_USERNAME/casting_defect_detection.git](https://github.com/YOUR_USERNAME/casting_defect_detection.git)
 cd casting-defect-detection
 ```
 
@@ -47,14 +47,14 @@ pip install -r requirements.txt
 
 1.  Download the model files from Hugging Face: [kim1688/casting_defect_resnet50](https://huggingface.co/kim1688/casting_defect_resnet50).
 2.  Create a folder named `model` in the root directory of this project.
-3.  Place the downloaded model files (e.g., `saved_model.pb` and variables folder, or `.h5` file) inside the `model/` folder.
+3.  Place the downloaded model files (e.g., `model.weights.h5` and variables folder) inside the `model/` folder.
 
 Your structure should look like this:
 
 ```text
 /casting-defect-detection
     /model
-        saved_model.pb
+        model.weights.h5
         /variables
     app.py
     requirements.txt
