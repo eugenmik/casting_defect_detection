@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Model files (too large for standard GitHub)
+model/*
+!model/.gitkeep
+*.h5
+*.keras
+saved_model.pb
+variables/
