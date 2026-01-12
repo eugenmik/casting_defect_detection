@@ -29,12 +29,12 @@ If you want to run this project locally, follow these steps:
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/YOUR_USERNAME/casting-defect-detection.git](https://github.com/YOUR_USERNAME/casting-defect-detection.git)
-cd casting-defect-detection
+cd casting-defect-detection```
 
 ### 2. Install Dependencies
 It is recommended to use a virtual environment.
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 ### 3. Download the Model
 **Important:** Due to GitHub file size limits, the trained model is not included in this repository.
@@ -50,13 +50,13 @@ Your structure should look like this:
         saved_model.pb
         /variables
     app.py
-    requirements.txt
+    requirements.txt```
 
 ## Usage
 
 Run the application:
 ```bash
-python app.py
+python app.py```
 
 Open your browser and navigate to the local URL provided in the terminal (usually http://127.0.0.1:7860).
 
